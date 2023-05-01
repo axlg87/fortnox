@@ -1,0 +1,22 @@
+@import "~bootstrap/scss/bootstrap";
+
+.App {
+    background: #f2f4f3;
+    height: 100vh;
+}
+
+.main-panel {
+    padding: 1.5rem;
+    height: 100%;
+}
+
+.btn.btn-primary {
+    background-color: #007533;
+    border-color: #007533;
+
+    &:hover,
+    &:active {
+        background-color: #003824;
+        border-color: #003824;
+    }
+}
